@@ -6,6 +6,8 @@ It is not an auto-trading bot. The app does not place real-money orders, and it 
 
 ## Product Screenshots
 
+Curated preview images are shown below. Full-page GitHub showcase screenshots are available in [`docs/screenshots/github-fullpage`](docs/screenshots/github-fullpage).
+
 ![Market overview](docs/screenshots/01-dashboard-overview.jpg)
 
 | Research workflow | Strategy evidence |

@@ -1,8 +1,8 @@
 # UI Screenshot Gallery
 
-This repository includes a small curated screenshot set for GitHub review. Full screenshot runs, local PDFs, validation JSON, logs, and other generated evidence stay in `artefacts/` and are intentionally ignored by Git.
+This repository includes curated preview screenshots for the README and full-page GitHub showcase screenshots for deeper review. Full raw screenshot runs, local PDFs, validation JSON, logs, and other generated evidence stay in `artefacts/` and are intentionally ignored by Git.
 
-## Curated Screens
+## README Preview Screens
 
 | Screen | Image |
 | --- | --- |
@@ -13,6 +13,18 @@ This repository includes a small curated screenshot set for GitHub review. Full 
 | Governance comparison | [05-governance-comparison.jpg](screenshots/05-governance-comparison.jpg) |
 | Reports and investment notes | [06-reports-investment-notes.jpg](screenshots/06-reports-investment-notes.jpg) |
 | Mobile research workflow | [07-mobile-triptych.jpg](screenshots/07-mobile-triptych.jpg) |
+
+## Full-Page GitHub Showcase Screens
+
+| Screen | Image |
+| --- | --- |
+| Dashboard overview | [01-dashboard-overview.jpg](screenshots/github-fullpage/01-dashboard-overview.jpg) |
+| Asset research | [02-asset-research.jpg](screenshots/github-fullpage/02-asset-research.jpg) |
+| Scanner opportunities | [03-scanner-opportunities.jpg](screenshots/github-fullpage/03-scanner-opportunities.jpg) |
+| Strategy tester | [04-strategy-tester.jpg](screenshots/github-fullpage/04-strategy-tester.jpg) |
+| Governance comparison | [05-governance-comparison.jpg](screenshots/github-fullpage/05-governance-comparison.jpg) |
+| Reports and investment notes | [06-reports-investment-notes.jpg](screenshots/github-fullpage/06-reports-investment-notes.jpg) |
+| Research workspace | [07-research-workspace.jpg](screenshots/github-fullpage/07-research-workspace.jpg) |
 
 ## Regeneration
 
