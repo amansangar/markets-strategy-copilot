@@ -1,0 +1,31 @@
+{
+  "name": "markets-strategy-copilot",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "packages/shared"
+  ],
+  "scripts": {
+    "dev": "docker compose up --build",
+    "dev:web": "npm --workspace web run dev",
+    "dev:api": "cd apps/api && python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "web:dev": "npm --workspace web run dev",
+    "web:build": "npm --workspace web run build",
+    "web:lint": "npm --workspace web run lint",
+    "web:typecheck": "npm --workspace web run typecheck",
+    "web:test:e2e": "npm --workspace web run test:e2e",
+    "web:test:e2e:headed": "npm --workspace web run test:e2e:headed",
+    "api:dev": "cd apps/api && python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000",
+    "api:test": "cd apps/api && pytest",
+    "seed:demo": "python scripts/generate_demo_data.py",
+    "demo:prepare": "powershell -ExecutionPolicy Bypass -File scripts/prepare_demo.ps1",
+    "demo:start": "powershell -ExecutionPolicy Bypass -File scripts/start_demo.ps1",
+    "check": "python scripts/run_checks.py",
+    "smoke:demo": "python scripts/run_smoke.py demo",
+    "smoke:live": "python scripts/run_smoke.py live",
+    "screenshots:final": "cd apps/web && node scripts/capture_final_screenshots.mjs",
+    "package:release": "python scripts/package_release.py",
+    "package:submission": "python scripts/package_submission.py"
+  }
+}

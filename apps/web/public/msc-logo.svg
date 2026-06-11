@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360" role="img" aria-labelledby="title desc">
+  <title id="title">Markets Strategy Copilot logo</title>
+  <desc id="desc">Original dark premium logo for Markets Strategy Copilot by Aman Sangar.</desc>
+  <defs>
+    <radialGradient id="glow" cx="28%" cy="18%" r="76%">
+      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.9"/>
+      <stop offset="44%" stop-color="#0e7490" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="55%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="360" rx="48" fill="#020617"/>
+  <circle cx="178" cy="130" r="118" fill="url(#glow)" opacity="0.9"/>
+  <rect x="82" y="54" width="176" height="176" rx="48" fill="#071626" stroke="#155e75" stroke-width="2"/>
+  <path d="M114 188 L148 90 L182 160 L211 126 L238 188" fill="none" stroke="url(#mark)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M120 188 H238" fill="none" stroke="#34d399" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="182" cy="160" r="13" fill="#22d3ee"/>
+  <text x="300" y="128" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Markets Strategy</text>
+  <text x="300" y="178" fill="#a5f3fc" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Copilot</text>
+  <text x="304" y="226" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="500">Explainable market research terminal</text>
+  <text x="304" y="268" fill="#34d399" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">by Aman Sangar</text>
+</svg>

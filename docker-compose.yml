@@ -1,0 +1,74 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: markets-strategy-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-markets_strategy_copilot}
+      POSTGRES_USER: ${POSTGRES_USER:-markets}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-markets}
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-markets} -d ${POSTGRES_DB:-markets_strategy_copilot}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    container_name: markets-strategy-api
+    restart: unless-stopped
+    environment:
+      APP_ENV: ${APP_ENV:-development}
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-markets}:${POSTGRES_PASSWORD:-markets}@postgres:5432/${POSTGRES_DB:-markets_strategy_copilot}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      POLYGON_API_KEY: ${POLYGON_API_KEY:-}
+      NEWSAPI_API_KEY: ${NEWSAPI_API_KEY:-}
+      APCA_API_KEY_ID: ${APCA_API_KEY_ID:-}
+      APCA_API_SECRET_KEY: ${APCA_API_SECRET_KEY:-}
+      FRED_API_KEY: ${FRED_API_KEY:-}
+      SEC_USER_AGENT: ${SEC_USER_AGENT:-}
+      FINNHUB_API_KEY: ${FINNHUB_API_KEY:-}
+      ALPHAVANTAGE_API_KEY: ${ALPHAVANTAGE_API_KEY:-}
+      FMP_API_KEY: ${FMP_API_KEY:-}
+      TWELVEDATA_API_KEY: ${TWELVEDATA_API_KEY:-}
+      MARKETAUX_API_KEY: ${MARKETAUX_API_KEY:-}
+      EODHD_API_KEY: ${EODHD_API_KEY:-}
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      RESEND_FROM_EMAIL: ${RESEND_FROM_EMAIL:-}
+      LIVE_DEFAULT_MODE: ${LIVE_DEFAULT_MODE:-demo}
+      PROJECT_ROOT: /workspace
+      DATA_DIR: /workspace/data
+      ARTEFACTS_DIR: /workspace/artefacts
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "${API_PORT:-8000}:8000"
+    volumes:
+      - ./apps/api:/workspace/apps/api
+      - ./data:/workspace/data
+      - ./artefacts:/workspace/artefacts
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    container_name: markets-strategy-web
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:-http://localhost:8000}
+    depends_on:
+      - api
+    ports:
+      - "${WEB_PORT:-3000}:3000"
+    volumes:
+      - ./apps/web:/app
+      - ./packages/shared:/packages/shared
+    command: sh -c "npm install && npm run dev -- --hostname 0.0.0.0 --port 3000"

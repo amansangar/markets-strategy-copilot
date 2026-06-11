@@ -1,0 +1,242 @@
+[
+  {
+    "symbol": "SPY",
+    "name": "SPDR S&P 500 ETF Trust",
+    "asset_class": "Equity ETF",
+    "venue": "NYSE Arca",
+    "currency": "USD",
+    "avg_spread_bps": 1.0,
+    "risk_limit": 0.35,
+    "description": "US equity beta proxy"
+  },
+  {
+    "symbol": "QQQ",
+    "name": "Invesco QQQ Trust",
+    "asset_class": "Equity ETF",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.2,
+    "risk_limit": 0.32,
+    "description": "US mega-cap growth proxy"
+  },
+  {
+    "symbol": "DIA",
+    "name": "SPDR Dow Jones Industrial Average ETF",
+    "asset_class": "Equity ETF",
+    "venue": "NYSE Arca",
+    "currency": "USD",
+    "avg_spread_bps": 1.4,
+    "risk_limit": 0.28,
+    "description": "US blue-chip index proxy"
+  },
+  {
+    "symbol": "IWM",
+    "name": "iShares Russell 2000 ETF",
+    "asset_class": "Equity ETF",
+    "venue": "NYSE Arca",
+    "currency": "USD",
+    "avg_spread_bps": 2.2,
+    "risk_limit": 0.24,
+    "description": "US small-cap risk proxy"
+  },
+  {
+    "symbol": "TLT",
+    "name": "iShares 20+ Year Treasury Bond ETF",
+    "asset_class": "Bond ETF",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.8,
+    "risk_limit": 0.22,
+    "description": "Duration and rates proxy"
+  },
+  {
+    "symbol": "USO",
+    "name": "United States Oil Fund",
+    "asset_class": "Commodity ETF",
+    "venue": "NYSE Arca",
+    "currency": "USD",
+    "avg_spread_bps": 4.5,
+    "risk_limit": 0.18,
+    "description": "Crude oil proxy"
+  },
+  {
+    "symbol": "GLD",
+    "name": "SPDR Gold Shares",
+    "asset_class": "Commodity ETF",
+    "venue": "NYSE Arca",
+    "currency": "USD",
+    "avg_spread_bps": 2.0,
+    "risk_limit": 0.25,
+    "description": "Gold risk-off proxy"
+  },
+  {
+    "symbol": "SLV",
+    "name": "iShares Silver Trust",
+    "asset_class": "Commodity ETF",
+    "venue": "NYSE Arca",
+    "currency": "USD",
+    "avg_spread_bps": 4.0,
+    "risk_limit": 0.18,
+    "description": "Silver and industrial metals proxy"
+  },
+  {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.1,
+    "risk_limit": 0.2,
+    "description": "Mega-cap technology"
+  },
+  {
+    "symbol": "MSFT",
+    "name": "Microsoft Corp.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.0,
+    "risk_limit": 0.22,
+    "description": "Cloud and AI platform leader"
+  },
+  {
+    "symbol": "NVDA",
+    "name": "NVIDIA Corp.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.8,
+    "risk_limit": 0.18,
+    "description": "AI semiconductor momentum"
+  },
+  {
+    "symbol": "TSLA",
+    "name": "Tesla Inc.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 3.5,
+    "risk_limit": 0.14,
+    "description": "High-beta electric vehicle equity"
+  },
+  {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.4,
+    "risk_limit": 0.18,
+    "description": "Consumer and cloud platform"
+  },
+  {
+    "symbol": "META",
+    "name": "Meta Platforms Inc.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.5,
+    "risk_limit": 0.18,
+    "description": "Digital advertising and AI platform"
+  },
+  {
+    "symbol": "GOOGL",
+    "name": "Alphabet Inc.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 1.3,
+    "risk_limit": 0.18,
+    "description": "Search, cloud, and AI platform"
+  },
+  {
+    "symbol": "JPM",
+    "name": "JPMorgan Chase & Co.",
+    "asset_class": "Equity",
+    "venue": "NYSE",
+    "currency": "USD",
+    "avg_spread_bps": 1.6,
+    "risk_limit": 0.18,
+    "description": "Large-cap bank and credit proxy"
+  },
+  {
+    "symbol": "XOM",
+    "name": "Exxon Mobil Corp.",
+    "asset_class": "Equity",
+    "venue": "NYSE",
+    "currency": "USD",
+    "avg_spread_bps": 1.8,
+    "risk_limit": 0.16,
+    "description": "Integrated energy equity"
+  },
+  {
+    "symbol": "COIN",
+    "name": "Coinbase Global Inc.",
+    "asset_class": "Equity",
+    "venue": "NASDAQ",
+    "currency": "USD",
+    "avg_spread_bps": 5.5,
+    "risk_limit": 0.12,
+    "description": "Crypto equity beta proxy"
+  },
+  {
+    "symbol": "EURUSD",
+    "name": "Euro / US Dollar",
+    "asset_class": "FX",
+    "venue": "OTC",
+    "currency": "USD",
+    "avg_spread_bps": 0.8,
+    "risk_limit": 0.2,
+    "description": "Major FX pair"
+  },
+  {
+    "symbol": "GBPUSD",
+    "name": "British Pound / US Dollar",
+    "asset_class": "FX",
+    "venue": "OTC",
+    "currency": "USD",
+    "avg_spread_bps": 1.0,
+    "risk_limit": 0.18,
+    "description": "Major FX pair"
+  },
+  {
+    "symbol": "USDJPY",
+    "name": "US Dollar / Japanese Yen",
+    "asset_class": "FX",
+    "venue": "OTC",
+    "currency": "JPY",
+    "avg_spread_bps": 1.1,
+    "risk_limit": 0.18,
+    "description": "Rates-sensitive FX pair"
+  },
+  {
+    "symbol": "BTCUSD",
+    "name": "Bitcoin / US Dollar",
+    "asset_class": "Crypto",
+    "venue": "Polygon Crypto",
+    "currency": "USD",
+    "avg_spread_bps": 8.0,
+    "risk_limit": 0.15,
+    "description": "24/7 digital asset proxy"
+  },
+  {
+    "symbol": "ETHUSD",
+    "name": "Ethereum / US Dollar",
+    "asset_class": "Crypto",
+    "venue": "Polygon Crypto",
+    "currency": "USD",
+    "avg_spread_bps": 10.0,
+    "risk_limit": 0.14,
+    "description": "Smart-contract platform proxy"
+  },
+  {
+    "symbol": "SOLUSD",
+    "name": "Solana / US Dollar",
+    "asset_class": "Crypto",
+    "venue": "Polygon Crypto",
+    "currency": "USD",
+    "avg_spread_bps": 16.0,
+    "risk_limit": 0.1,
+    "description": "High-beta crypto network proxy"
+  }
+]

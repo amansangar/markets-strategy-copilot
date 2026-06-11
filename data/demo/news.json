@@ -1,0 +1,288 @@
+[
+  {
+    "id": "demo-news-1",
+    "source": "Seeded Market Wire",
+    "title": "Mega-cap earnings keep broad US index bid as volatility cools",
+    "description": "Deterministic demo headline for SPY used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-20T14:30:00+00:00",
+    "url": "https://example.com/demo/spy-earnings",
+    "symbols": [
+      "SPY"
+    ],
+    "raw_sentiment": 0.71,
+    "relevance": 0.82
+  },
+  {
+    "id": "demo-news-2",
+    "source": "Seeded Market Wire",
+    "title": "AI software and chip leadership keeps Nasdaq momentum screen active",
+    "description": "Deterministic demo headline for QQQ used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-20T10:30:00+00:00",
+    "url": "https://example.com/demo/qqq-ai",
+    "symbols": [
+      "QQQ"
+    ],
+    "raw_sentiment": 0.64,
+    "relevance": 0.81
+  },
+  {
+    "id": "demo-news-3",
+    "source": "Seeded Market Wire",
+    "title": "Semiconductor breadth improves as data-centre demand remains resilient",
+    "description": "Deterministic demo headline for NVDA used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-20T06:30:00+00:00",
+    "url": "https://example.com/demo/nvda-demand",
+    "symbols": [
+      "NVDA"
+    ],
+    "raw_sentiment": 0.69,
+    "relevance": 0.86
+  },
+  {
+    "id": "demo-news-4",
+    "source": "Seeded Market Wire",
+    "title": "Cloud growth stabilises while AI infrastructure spend remains elevated",
+    "description": "Deterministic demo headline for MSFT used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-20T02:30:00+00:00",
+    "url": "https://example.com/demo/msft-cloud",
+    "symbols": [
+      "MSFT"
+    ],
+    "raw_sentiment": 0.48,
+    "relevance": 0.78
+  },
+  {
+    "id": "demo-news-5",
+    "source": "Seeded Market Wire",
+    "title": "Apple services margins offset cautious hardware replacement cycle",
+    "description": "Deterministic demo headline for AAPL used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-19T22:30:00+00:00",
+    "url": "https://example.com/demo/aapl-services",
+    "symbols": [
+      "AAPL"
+    ],
+    "raw_sentiment": 0.18,
+    "relevance": 0.72
+  },
+  {
+    "id": "demo-news-6",
+    "source": "Seeded Market Wire",
+    "title": "Tesla volatility rises as delivery expectations reset lower",
+    "description": "Deterministic demo headline for TSLA used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-19T18:30:00+00:00",
+    "url": "https://example.com/demo/tsla-deliveries",
+    "symbols": [
+      "TSLA"
+    ],
+    "raw_sentiment": -0.42,
+    "relevance": 0.8
+  },
+  {
+    "id": "demo-news-7",
+    "source": "Seeded Market Wire",
+    "title": "Retail margins and cloud backlog support constructive Amazon tape",
+    "description": "Deterministic demo headline for AMZN used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-19T14:30:00+00:00",
+    "url": "https://example.com/demo/amzn-backlog",
+    "symbols": [
+      "AMZN"
+    ],
+    "raw_sentiment": 0.44,
+    "relevance": 0.73
+  },
+  {
+    "id": "demo-news-8",
+    "source": "Seeded Market Wire",
+    "title": "Ad checks and AI engagement keep Meta relative strength intact",
+    "description": "Deterministic demo headline for META used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-19T10:30:00+00:00",
+    "url": "https://example.com/demo/meta-ads",
+    "symbols": [
+      "META"
+    ],
+    "raw_sentiment": 0.51,
+    "relevance": 0.74
+  },
+  {
+    "id": "demo-news-9",
+    "source": "Seeded Market Wire",
+    "title": "Bank credit commentary remains stable as deposit beta normalises",
+    "description": "Deterministic demo headline for JPM used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-19T06:30:00+00:00",
+    "url": "https://example.com/demo/jpm-credit",
+    "symbols": [
+      "JPM"
+    ],
+    "raw_sentiment": 0.24,
+    "relevance": 0.69
+  },
+  {
+    "id": "demo-news-10",
+    "source": "Seeded Market Wire",
+    "title": "Gold steadies as real yields soften and macro hedging demand returns",
+    "description": "Deterministic demo headline for GLD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-19T02:30:00+00:00",
+    "url": "https://example.com/demo/gld-yields",
+    "symbols": [
+      "GLD"
+    ],
+    "raw_sentiment": 0.22,
+    "relevance": 0.63
+  },
+  {
+    "id": "demo-news-11",
+    "source": "Seeded Market Wire",
+    "title": "Long-duration bonds catch a bid as rate volatility cools",
+    "description": "Deterministic demo headline for TLT used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-18T22:30:00+00:00",
+    "url": "https://example.com/demo/tlt-rates",
+    "symbols": [
+      "TLT"
+    ],
+    "raw_sentiment": 0.34,
+    "relevance": 0.71
+  },
+  {
+    "id": "demo-news-12",
+    "source": "Seeded Market Wire",
+    "title": "Oil range tightens as inventory data offsets geopolitical premium",
+    "description": "Deterministic demo headline for USO used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-18T18:30:00+00:00",
+    "url": "https://example.com/demo/uso-inventory",
+    "symbols": [
+      "USO"
+    ],
+    "raw_sentiment": -0.05,
+    "relevance": 0.62
+  },
+  {
+    "id": "demo-news-13",
+    "source": "Seeded Market Wire",
+    "title": "Euro firms after inflation print nudges rate expectations higher",
+    "description": "Deterministic demo headline for EURUSD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-18T14:30:00+00:00",
+    "url": "https://example.com/demo/eurusd-cpi",
+    "symbols": [
+      "EURUSD"
+    ],
+    "raw_sentiment": 0.41,
+    "relevance": 0.76
+  },
+  {
+    "id": "demo-news-14",
+    "source": "Seeded Market Wire",
+    "title": "Sterling holds support as UK wage data keeps policy path uncertain",
+    "description": "Deterministic demo headline for GBPUSD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-18T10:30:00+00:00",
+    "url": "https://example.com/demo/gbpusd-wages",
+    "symbols": [
+      "GBPUSD"
+    ],
+    "raw_sentiment": 0.16,
+    "relevance": 0.64
+  },
+  {
+    "id": "demo-news-15",
+    "source": "Seeded Market Wire",
+    "title": "Yen sensitivity rises as rate-differential trades get crowded",
+    "description": "Deterministic demo headline for USDJPY used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-18T06:30:00+00:00",
+    "url": "https://example.com/demo/usdjpy-rates",
+    "symbols": [
+      "USDJPY"
+    ],
+    "raw_sentiment": -0.28,
+    "relevance": 0.7
+  },
+  {
+    "id": "demo-news-16",
+    "source": "Seeded Market Wire",
+    "title": "Bitcoin liquidity improves as ETF flows recover from prior week drawdown",
+    "description": "Deterministic demo headline for BTCUSD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-18T02:30:00+00:00",
+    "url": "https://example.com/demo/btc-etf",
+    "symbols": [
+      "BTCUSD"
+    ],
+    "raw_sentiment": 0.58,
+    "relevance": 0.88
+  },
+  {
+    "id": "demo-news-17",
+    "source": "Seeded Market Wire",
+    "title": "Ethereum staking flows improve while volatility remains elevated",
+    "description": "Deterministic demo headline for ETHUSD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-17T22:30:00+00:00",
+    "url": "https://example.com/demo/eth-staking",
+    "symbols": [
+      "ETHUSD"
+    ],
+    "raw_sentiment": 0.39,
+    "relevance": 0.76
+  },
+  {
+    "id": "demo-news-18",
+    "source": "Seeded Market Wire",
+    "title": "Solana network activity rebounds but funding risk remains high",
+    "description": "Deterministic demo headline for SOLUSD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-17T18:30:00+00:00",
+    "url": "https://example.com/demo/sol-activity",
+    "symbols": [
+      "SOLUSD"
+    ],
+    "raw_sentiment": 0.27,
+    "relevance": 0.77
+  },
+  {
+    "id": "demo-news-19",
+    "source": "Seeded Market Wire",
+    "title": "Index breadth narrows even as headline benchmark makes fresh highs",
+    "description": "Deterministic demo headline for SPY used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-17T14:30:00+00:00",
+    "url": "https://example.com/demo/spy-breadth",
+    "symbols": [
+      "SPY"
+    ],
+    "raw_sentiment": -0.18,
+    "relevance": 0.66
+  },
+  {
+    "id": "demo-news-20",
+    "source": "Seeded Market Wire",
+    "title": "Crypto derivatives funding spikes, raising risk of short-term shakeout",
+    "description": "Deterministic demo headline for BTCUSD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-17T10:30:00+00:00",
+    "url": "https://example.com/demo/btc-funding",
+    "symbols": [
+      "BTCUSD"
+    ],
+    "raw_sentiment": -0.36,
+    "relevance": 0.74
+  },
+  {
+    "id": "demo-news-21",
+    "source": "Seeded Market Wire",
+    "title": "Commodity inflows pick up as portfolio hedgers add defensive exposure",
+    "description": "Deterministic demo headline for GLD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-17T06:30:00+00:00",
+    "url": "https://example.com/demo/gld-inflows",
+    "symbols": [
+      "GLD"
+    ],
+    "raw_sentiment": 0.31,
+    "relevance": 0.61
+  },
+  {
+    "id": "demo-news-22",
+    "source": "Seeded Market Wire",
+    "title": "Dollar demand fades into month-end rebalance window",
+    "description": "Deterministic demo headline for EURUSD used to exercise relevance, decay, and explainability paths.",
+    "published_at": "2026-04-17T02:30:00+00:00",
+    "url": "https://example.com/demo/fx-rebalance",
+    "symbols": [
+      "EURUSD"
+    ],
+    "raw_sentiment": 0.17,
+    "relevance": 0.57
+  }
+]

@@ -1,0 +1,65 @@
+# Node / frontend
+node_modules/
+apps/web/node_modules/
+apps/web/.next/
+apps/web/package-lock.json
+apps/web/out/
+apps/web/coverage/
+packages/shared/node_modules/
+packages/shared/dist/
+
+# Python / backend
+.venv/
+venv/
+env/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+apps/api/.venv/
+apps/api/.pytest_cache/
+apps/api/.coverage
+apps/api/*.egg-info/
+
+# Environment and secrets
+.env
+.env.*
+.env.local
+.env.*.local
+!.env.example
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Runtime state
+postgres-data/
+*.sqlite3
+*.sqlite*
+*.db
+*.db-journal
+artefacts/releases/
+artefacts/*
+!artefacts/.gitkeep
+artefacts/tmp/
+artefacts/playwright-results/
+artefacts/playwright-report/
+artefacts/**/*.log
+*.log
+
+# Build and cache junk
+.codex_tmp/
+.next/
+.turbo/
+.cache/
+dist/
+build/
+coverage/
+htmlcov/
+*.pyc
+
+# Generated screenshots/PDFs/metrics are local evidence only; source submission packages exclude them.

@@ -1,0 +1,20 @@
+version: 1
+mode: conservative
+max_gross_exposure: 1.0
+max_asset_weight: 0.35
+max_turnover_per_rebalance: 0.30
+max_drawdown_guard: 0.15
+max_position_risk_fraction: 0.02
+stale_price_threshold_minutes: 10
+max_spread_bps:
+  Equity: 6
+  Equity ETF: 4
+  Bond ETF: 6
+  Commodity ETF: 6
+  FX: 3
+  Crypto: 25
+blocked_actions_when_stale:
+  - BUY
+  - STRONG_BUY
+  - SELL
+  - STRONG_SELL
